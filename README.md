@@ -1,6 +1,11 @@
 
 # "Human Resource Machine" Solutions
 
+## Content
+
+* [Years](#years)
+* [Syntax](#syntax)
+
 ## Years
 
 01. [Mail Room](01.%20Mail%20Room/task.md)
@@ -94,4 +99,28 @@
 
 ## Syntax
 
-### Commands
+`INBOX`: Pick up the next thing from the **INBOX**
+
+`OUTBOX`: Put whatever you are holding into the **OUTBOX**
+
+`COPYFROM`: Walk to a specific tile on the floor and pick up a copy of whatever is there.
+
+`COPYTO`: Copy whatever you are currently holding to a specific tile on the floor.
+
+`ADD`: Add the contents of a specific tile on the floor to whatever you are currently holding. The result goes back into your hands.
+
+`SUB`: Subtract the contents of a specific tile on the floor **FROM** whatever you are currently holding. The result goes back into your hands.
+
+`BUMP+` (`BUMPUP`): Add **ONE** to the contents of a specific tile on the floor. The result is written back to the floor, and also back into your hands for yout convenience!
+
+`BUMP-` (`BUMPDN`): Subtract **ONE** from the contents of a specific tile on the floor. The result is written back to the floor, and also back into your hands for your convenience!
+
+`JUMP`: Jump to a new location within your program. You can jump backward to create loops, or jump forward to skip entire sections. The possibilities are endless!
+
+`JUMP IF ZERO` (`JUMPZ`): Jump only if you are currently holding a **ZERO**. Otherwise continue to the next liine in your program.
+
+`JUMP IF NEGATIVE` (`JUMPN`): Jump only if you are currently holding a negative number. Otherwise continue to the next line in your program.
+
+`COMMENT`: Use comments to leave helpful notes for yourself within your program. Does not affect your program in any way, other than making it easier for you to read!
+
+`LABEL`: They can help you remember the purpose of each tile on the floor. Just tap any tile on the floor to edit.
