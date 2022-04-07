@@ -1,5 +1,5 @@
 
-# Duplicaate Removal
+# Duplicate Removal
 
 ## Task
 

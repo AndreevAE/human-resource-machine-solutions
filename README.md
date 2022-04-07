@@ -9,7 +9,7 @@
 ## Years
 
 01. [Mail Room](01.%20Mail%20Room/task.md)
-    * [Listing 1 (Size: 6/6 Speed 6/6)](01.%20Mail%20Room/listing_1.hrm) 
+    * [Listing 1 (Size: 6/6 Speed 6/6)](01.%20Mail%20Room/listing_1.hrm)
 02. [Busy Mail Room](02.%20Busy%20Mail%20Room/task.md)
     * [Listing 1 (Size: 3/3 Speed 30/25)](02.%20Busy%20Mail%20Room/listing_1.hrm)
     * [Listing 2 (Size: 24/3 Speed 20/25)](02.%20Busy%20Mail%20Room/listing_2.hrm)
@@ -77,7 +77,8 @@
 34. [Vower Incinerator](34.%20Vower%20Incinerator/task.md)
     * [Listing 1 (Size: 13/13 Speed 318/323)](34.%20Vower%20Incinerator/listing_1.hrm)
 35. [Duplicate Removal](35.%20Duplicate%20Removal/task.md)
-    * [Listing 1 (Size: 19/17 Speed 190/167)](35.%20Duplicate%20Removal/listing_1.hrm)
+    * [Listing 1 (Size: 18/17 Speed 179/167)](35.%20Duplicate%20Removal/listing_1.hrm)
+    * [Listing 2 (Size: 16/17 Speed 149/167)](35.%20Duplicate%20Removal/listing_2.hrm)
 36. [Alphabetizer](36.%20Alphabetizer/task.md)
     * [Listing 1 (Size: 37/39 Speed 83/109)](36.%20Alphabetizer/listing_1.hrm)
     * [Listing 2 (Size: 34/39 Speed 79/109)](36.%20Alphabetizer/listing_2.hrm)
@@ -85,6 +86,8 @@
     * [Listing 1 (Size: 8/8 Speed 63/63)](37.%20Scavenger%20Chain/listing_1.hrm)
 38. [Digit Exploder](38.%20Digit%20Exploder/task.md)
     * [Listing 1 (Size: 27/30 Speed 208/165)](38.%20Digit%20Exploder/listing_1.hrm)
+    * [Listing 2 (Size: 125/30 Speed 154/165)](38.%20Digit%20Exploder/listing_2.hrm)
+    * [Listing 3 (Size: 83/30 Speed 165/165)](38.%20Digit%20Exploder/listing_3.hrm)
 39. [Re-Coordinator](39.%20Re-Coordinator/task.md)
     * [Listing 1 (Size: 15/14 Speed 77/76)](39.%20Re-Coordinator/listing_1.hrm)
     * [Listing 2 (Size: 14/14 Speed 85/76)](39.%20Re-Coordinator/listing_2.hrm)
@@ -94,7 +97,10 @@
     * [Listing 2 (Size: 51/28 Speed 362/399)](40.%20Prime%20Factory/listing_2.hrm)
     * [Listing 3 (Size: 61/28 Speed 367/399)](40.%20Prime%20Factory/listing_3.hrm)
 41. [Sorting Floor](41.%20Sorting%20Floor/task.md)
-    * [Listing 1 (Size: 36/34 Speed 920/714)](41.%20Sorting%20Floor/listing_1.hrm)
+    * [Listing 1 (Size: 32/34 Speed 708/714)](41.%20Sorting%20Floor/listing_1.hrm)
+    * [Listing 2 (Size: 30/34 Speed 1072/714)](41.%20Sorting%20Floor/listing_2.hrm)
+    * [Listing 3 (Size: 34/34 Speed 974/714)](41.%20Sorting%20Floor/listing_3.hrm)
+    * [Listing 4 (Size: 26/34 Speed 760/714)](41.%20Sorting%20Floor/listing_4.hrm)
 42. End Program. Congratulations.
 
 ## Syntax

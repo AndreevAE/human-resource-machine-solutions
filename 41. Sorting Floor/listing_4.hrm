@@ -6,37 +6,29 @@
 a:
     COPYTO   24
     COPYTO   22
-    COPYTO   21
 b:
     INBOX   
     COPYTO   [24]
-    JUMPZ    i
-    SUB      [21]
-    JUMPN    c
-    JUMP     d
-c:
-    COPYFROM 24
-    COPYTO   21
-d:
+    JUMPZ    d
     BUMPUP   24
     JUMP     b
     COMMENT  1
-e:
+c:
     COPYFROM 22
+d:
     COPYTO   24
-f:
+e:
     COPYFROM 24
     COPYTO   21
-g:
+f:
     BUMPUP   24
     COPYFROM [24]
-    JUMPZ    h
+    JUMPZ    g
     SUB      [21]
-    JUMPN    f
-    JUMP     g
-h:
+    JUMPN    e
+    JUMP     f
+g:
     COMMENT  4
-i:
     COPYFROM [21]
     OUTBOX  
     COMMENT  2
@@ -45,7 +37,7 @@ i:
     BUMPUP   22
     COPYFROM [22]
     JUMPZ    a
-    JUMP     e
+    JUMP     c
 
 
 DEFINE COMMENT 0
@@ -74,18 +66,18 @@ Z/0pUo/5U6QYAdJ3pF0x4kpjfMvN+uoZhvUQs3Z2K4Tv7A6sCp/QOj98QtdikJhac/WM9f3VM0DsZ7Ok
 gq1mT1gOYvfMkQiUWi4RuHelbOiO1XqJO1Y7F2SuDKmRWRbX3LggpolhFIyCUYAXAAAsEFew;
 
 DEFINE COMMENT 3
-eJzbzsDAMFHmjNQ88TNSQSLHxNYLHhXdyXtNUZjnuW4GzxvDBP5vFs9kGB0fy7K6mMtJBE6UUY58J6kd
+eJzbwsDAMFHmjNQ88TNSQSLHxNYLHhXdyXtNUZjnuW4GzxvDBP5vFs9kGB0fy7K6mMtJBE6UUY58J6kd
 zyGgHc/Hpx4D1M4gpLNfUEhHJQrEnmG5TyDXc7/gcfez0o9s2V0nWcuHHfRUCAfJfQjfxvUhXCwAxJ4W
 uU9gb9ZefhB7StR747qk98Yg9swIicCcTIlAEPudZM3MeeIV01YKl0/dyVs+VZinanoBZ88Sac5Z6wo4
 523M4l66bY7ErqN9ssfPPZC7cPWB3K07E2Xu3Q8VfvI4i/vJY5AZaTrFk4R0bt0BsXfodi7aqtc6/5dJ
 09xHts3zzOymrZ5gs2jLL5P1e9cabtgHUpPlVTwpywuiPssrs3tOeGY3iH3Qc+m2f0FLt4HYe7wfPHCN
 ePAAxL6cFN+innzpGoh9ITmzOy4Por4yZek2rjyI+pK0qzd+FV+9AWJb1qR3WdZA2MZ1WT1inVk923tK
-Jsf3VkyL7Wuau7Gvf9nGvvV7d3afvCDRcfn6+eabt7Ub79ztqLt5G6RH8+Ah4dzjh4QzTh4VTT11WjLp
-9BUFvtOvDY4f/WZRdein1fbTDA6xZzncNp6VCo49Kx/Gd1o9RvikbsLxo4bJN/cZJt/fo5sAMqft7gVZ
-lUfHxAqfHhI+/OyIiNDLWyq7X74z2vviu2Xjffmwtrv6SUZ3LTNb7pmmFT7VTch8oZuQ/Eo/ieuNWTpI
-/6etJZNb92X1VBzO6jlyLK//yLHepSePnLxw8gjEnQ93r9wpdmLlThDb/WrrfP9LK3f6Xzpx/vOVazff
-Xbt52/z29Vu375680HLv4Cnd+ws3t93tWtx5p23BlBuNc0B6It+t3Bn8Yd7GpR8nLF/6sWYmy7viSWkv
-Qbh3KdP7pdv8Pu06uujTmUtLP169sePVgwd7Xzx4kPfs5u28Z+cu87zesI/rzdo9DKOAKAAAP9ZOJQ;
+Jsf3VkyL7Wuau7Gvf9nGvvV7d3afvCDRcfn6+eabt7Ub79ztqLt5G6Tn4e67amZ7TkoY7z0qqn3gkHDp
+kUPCRUePieUev6WSe/yrecGxf3bKh4V89fYrhHfsNUo5f8goZf8JiwxwPL08JJz37JBwzcNLco33n+vq
+3pcK1nqgElX5SDdB5ql+Us5z/aTE12rRXG8UI+Le8Hltfc3lXviU2enyA2YnkH6/zU1zv28unDh3a07v
+k105vQpHCieePFI1/eSRySsVjizacubw9VsgdWZ7lm5TO7R0W9LplTtBfP17md3PbtbPdro+eaXrtbV7
+XK/tO/Hu2vFzj2+duaT14PTFCw8PnrrwcNP+yw+Wbuu7tWQrSA/728Y5cW/aFnC9WbTl//vj5359PHnh
++Y+9xx/+2nao6/fqXV2/Z6y1/NW2wPF7yeQFn3P7/r8vnhT2vnoGwyggGQAAdFxDgA;
 
 DEFINE COMMENT 4
 eJzzZmBgSODn81JmU45UY7XPVWONa5bjqJjGx9ezxEmqd+lj2c5F+or1s9VVcvsqVRNaT6t5lZ5WU49R
